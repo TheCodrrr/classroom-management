@@ -46,7 +46,7 @@ export default function Login() {
         <>
             <div className="user_access_form_container dff">
                 <div className="header_access">
-                    <div className="webname_access"><h1>Website Name is here</h1></div>
+                    <div className="webname_access"><h1>Ease Desc</h1></div>
                 </div>
                 <div className="content_access">
                     <div className="form_access">

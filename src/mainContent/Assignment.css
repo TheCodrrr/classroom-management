@@ -1,0 +1,134 @@
+.assignment_container {
+    /* background-color: red; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.assignment_head_container {
+    height: 5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+}
+
+.assignment_head {
+    font-weight: 400;
+}
+
+.assignment_navbar_container {
+    height: 3rem;
+    width: 100%;
+    /* background-color: yellow; */
+    padding-left: 2.3rem;
+    justify-content: space-between;
+}
+
+.assignment_navbar_added_class_container {
+    height: 100%;
+    /* width:; */
+}
+
+.assignment_nav_elm {
+    height: 90%;
+    width: 100px;
+    margin: 0 5px;
+    /* background-color: green; */
+    border: none;
+    font-size: 1.2rem;
+    background-color: var(--bgcolor3);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px var(--bgcolor2);
+}
+
+.assignment_nav_elm:hover {
+    background-color: var(--bgcolor9);
+}
+
+.assignment_elm_selected {
+    background-color: var(--bgcolor9);
+}
+
+.assignment_elm_selected:hover {
+    background-color: var(--bgcolor9);
+    /* background-color: ; */
+}
+
+.assignment_navbar_add_class_container {
+    height: 90%;
+    aspect-ratio: 1/1;
+    /* background-color: red; */
+    background-color: transparent;
+    margin-right: 30px;
+    color: var(--color1);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.assignment_navbar_add_class_container:hover {
+    background-color: var(--bgcolor3);
+    box-shadow: 0 0 5px var(--bgcolor8);
+}
+
+.assignment_navbar_add_class_container i {
+    transition: 0.2s;
+    font-size: 1.5rem;
+}
+
+.assignment_navbar_add_class_container:hover i {
+    transform: scale(1.15);
+}
+
+.assignment_content_container {
+    flex-direction: column;
+    min-height: calc(100vh - 14rem);
+    height: calc(100vh - 14rem);
+    /* height: calc(100vh - 14rem); */
+    width: 100%;
+    /* background-color: blue; */
+    /* margin-top: 5px; */
+}
+
+.assignment_card_container {
+    height: 93%;
+    width: 95%;
+    /* background-color: red; */
+    border-top: 1px solid lightgrey;
+    flex-direction: column;
+}
+
+.assignment_card_head_row {
+    width: 100%;
+}
+
+.assignment_card_head_row div {
+    height: 10rem;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.assign_sno {
+    width: 10%;
+    /* background-color: yellow; */
+}
+
+.assign_name {
+    width: 40%;
+    /* background-color: red; */
+}
+
+.assign_start_date {
+    /* background-color: blue; */
+    width: 15%;
+}
+
+.assign_end_date {
+    /* background-color: white; */
+    width: 15%;
+}
+
+.status {
+    /* background-color: green; */
+    width: 20%;
+}

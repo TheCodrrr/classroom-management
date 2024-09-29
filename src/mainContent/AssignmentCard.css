@@ -1,0 +1,33 @@
+.assignment_card {
+    height: 10rem;
+    width: 100%;
+    /* margin: 1rem 0; */
+}
+
+.assignment_card div {
+    height: 100%;
+}
+
+.assign_sno {
+    width: 10%;
+}
+
+.assign_name {
+    width: 40%;
+}
+
+.assign_start_date {
+    width: 15%;
+}
+
+.assign_end_date {
+    width: 15%;
+}
+
+.status {
+    width: 20%;
+}
+
+.odd {
+    background-color: var(--bgcolor2);
+}

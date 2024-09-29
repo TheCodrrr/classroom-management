@@ -26,13 +26,13 @@ export default function Navbar(props) {
 
     return (
         <div className="navbar df-ai">
-            <div className="webname">Name here</div>
+            <div className="webname">Ease Desc</div>
             <div className="webscontainer">
                 { isLoggedIn ? navbar_show_user_id : navbar_show_login }
                 { props.toggleButton }
-                <div className="op-logo dff">
+                {/* <div className="op-logo dff">
                     <i className="fa-solid fa-bars"></i>
-                </div>
+                </div> */}
             </div>
         </div>
     );

@@ -83,7 +83,52 @@
 .attendence_content_container {
     flex-direction: column;
     min-height: calc(100vh - 14rem);
+    height: calc(100vh - 14rem);
     /* height: calc(100vh - 14rem); */
     width: 100%;
     /* background-color: blue; */
+    /* margin-top: 5px; */
+}
+
+.attendence_card_container {
+    height: 93%;
+    width: 95%;
+    /* background-color: red; */
+    border-top: 1px solid lightgrey;
+    flex-direction: column;
+}
+
+.attendence_card_head_row {
+    width: 100%;
+}
+
+.attendence_card_head_row div {
+    height: 10rem;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.att_sno {
+    width: 10%;
+    /* background-color: yellow; */
+}
+
+.att_name {
+    width: 40%;
+    /* background-color: red; */
+}
+
+.att_class {
+    /* background-color: blue; */
+    width: 15%;
+}
+
+.total_class {
+    /* background-color: white; */
+    width: 15%;
+}
+
+.per {
+    /* background-color: green; */
+    width: 20%;
 }

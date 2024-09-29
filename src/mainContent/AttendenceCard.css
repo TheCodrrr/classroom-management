@@ -1,0 +1,33 @@
+.attendence_card {
+    height: 10rem;
+    width: 100%;
+    /* margin: 1rem 0; */
+}
+
+.attendence_card div {
+    height: 100%;
+}
+
+.att_sno {
+    width: 10%;
+}
+
+.att_name {
+    width: 40%;
+}
+
+.att_class {
+    width: 15%;
+}
+
+.total_class {
+    width: 15%;
+}
+
+.per {
+    width: 20%;
+}
+
+.odd {
+    background-color: var(--bgcolor2);
+}

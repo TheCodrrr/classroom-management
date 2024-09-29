@@ -1,5 +1,6 @@
 import React from "react";
-import './Attendence.css'
+import './Attendence.css';
+import AttendenceCard from "./AttendenceCard";
 
 export default function Attendence() {
     return (
@@ -20,7 +21,30 @@ export default function Attendence() {
                     </button>
                 </div>
                 <div className="attendence_content_container dff">
-
+                    <div className="attendence_card_container dff">
+                        <div className="attendence_card_head_row dff">
+                            <div className="att_sno dff">
+                                Serial Number
+                            </div>
+                            <div className="att_name dff">
+                                Student Name
+                            </div>
+                            <div className="att_class dff">
+                                Attended Classes
+                            </div>
+                            <div className="total_class dff">
+                                Total Classes
+                            </div>
+                            <div className="per dff">
+                                Percentage
+                            </div>
+                        </div>
+                        <AttendenceCard sno = {1} name = {"Rahul"} att_class = {16} total_class = {20} classes={"odd"}/>
+                        <AttendenceCard sno = {2} name = {"Rohit"} att_class = {18} total_class = {20} classes={"even"}/>
+                        <AttendenceCard sno = {3} name = {"Yash"} att_class = {19} total_class = {20} classes={"odd"}/>
+                        <AttendenceCard sno = {4} name = {"Aryan"} att_class = {20} total_class = {20} classes={"even"}/>
+                        <AttendenceCard sno = {5} name = {"Jayveer"} att_class = {17} total_class = {20} classes={"odd"}/>
+                    </div>
                 </div>
             </div>
         </>
