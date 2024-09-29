@@ -1,0 +1,28 @@
+.option{
+    background-color: var(--bgcolor3);
+    /* color: white; */
+    height: 100%;
+    width: 25rem;
+    flex-direction: column;
+    padding: 2rem 0 2rem 3rem;
+}
+
+.op{
+    font-size: 1.5rem;
+    list-style-type: none;
+    /* background-color: red; */
+    height: 3rem;
+    margin: 1rem 0;
+}
+
+.op_link {
+    color: var(--color1);
+    text-decoration: none;
+    transition: 0.2s;
+    /* background-color: red; */
+}
+
+.op_link:hover {
+    transform: translateX(5px);
+    /* background-color: red; */
+}

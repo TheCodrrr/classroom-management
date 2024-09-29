@@ -1,0 +1,123 @@
+.home {
+    flex-direction: column;
+}
+
+.welcome{
+    font-size: 3rem;
+    width: 80%;
+    margin: 3rem 0 3rem 2rem;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.boxes{
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 20rem;
+    width: 25rem;
+    /* background-color: red; */
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 2rem 3rem;
+    flex-direction: column;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+.box:hover {
+    border: 1px solid var(--color1);
+    box-shadow: 0 0 10px var(--bgcolor2);
+}
+
+.box h2 {
+    text-align: center;
+    color: var(--color1);
+}
+
+.box p {
+    margin: 2rem 0;
+    color: var(--color1);
+    text-align: center;
+}
+
+.box1 {
+    background-color: var(--bgcolor4);
+}
+
+.box2 {
+    background-color: var(--bgcolor5);
+}
+
+.announcement_container_home {
+    flex-direction: column;
+    width: 80%;
+    height: 200px;
+    /* background-color: red; */
+    margin: 2rem 3rem;
+    background-color: var(--bgcolor6);
+    border-radius: 1rem;
+    /* background-color: green; */
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+.announcement_container_home:hover {
+    border: 1px solid var(--color1);
+    box-shadow: 0 0 10px var(--bgcolor2);
+}
+
+.annoucement_top {
+    border-bottom: 3px solid black;
+    height: 80px;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    /* padding-left: 25px; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.announce_top_head {
+    font-size: 2rem;
+    /* background-color: red; */
+}
+
+.announcement_add {
+    border-radius: 5px;
+    height: 40px;
+    aspect-ratio: 1/1;
+    transition: 0.2s;
+}
+
+.announcement_add:hover {
+    background-color: var(--bgcolor7);
+}
+
+.announcement_add_icon {
+    font-size: 1.2rem;
+}
+
+.announcement_detail_container {
+    height: 120px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.announcement_detail_container h2, p {
+    padding-left: 25px;
+    width: 100%;
+}
+
+.announcement_detail_container h2 {
+    padding-top: 10px;
+}

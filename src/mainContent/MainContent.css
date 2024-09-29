@@ -1,0 +1,12 @@
+.main{
+    height: calc(100vh - 5rem);
+    width: calc(100vw - 25rem);
+    overflow-y: scroll;
+}
+
+.page {
+    min-height: calc(100vh - 5rem);
+    /* height: 1000px; */
+    width: calc(100vw - 25rem);
+    /* padding: 0 10px; */
+}

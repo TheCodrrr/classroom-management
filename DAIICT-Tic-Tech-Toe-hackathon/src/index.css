@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* 
+font-family: "Ubuntu", sans-serif;
+font-family: "Roboto", sans-serif;
+*/
+
+:root {
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.dff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.df-jc {
+  display: flex;
+  align-items: center;
+}
+
+.df-ai {
+  display: flex;
+  align-items: center;
+}
+
+.df {
+  display: flex;
+}

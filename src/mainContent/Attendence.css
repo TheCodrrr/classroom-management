@@ -1,0 +1,89 @@
+.attendence_container {
+    /* background-color: red; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.attendence_head_container {
+    height: 5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+}
+
+.attendence_head {
+    font-weight: 400;
+}
+
+.attendence_navbar_container {
+    height: 3rem;
+    width: 100%;
+    /* background-color: yellow; */
+    padding-left: 2.3rem;
+    justify-content: space-between;
+}
+
+.attendence_navbar_added_class_container {
+    height: 100%;
+    /* width:; */
+}
+
+.attendence_nav_elm {
+    height: 90%;
+    width: 100px;
+    margin: 0 5px;
+    /* background-color: green; */
+    border: none;
+    font-size: 1.2rem;
+    background-color: var(--bgcolor3);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px var(--bgcolor2);
+}
+
+.attendence_nav_elm:hover {
+    background-color: var(--bgcolor9);
+}
+
+.attendence_elm_selected {
+    background-color: var(--bgcolor9);
+}
+
+.attendence_elm_selected:hover {
+    background-color: var(--bgcolor9);
+    /* background-color: ; */
+}
+
+.attendence_navbar_add_class_container {
+    height: 90%;
+    aspect-ratio: 1/1;
+    /* background-color: red; */
+    background-color: transparent;
+    margin-right: 30px;
+    color: var(--color1);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.attendence_navbar_add_class_container:hover {
+    background-color: var(--bgcolor3);
+    box-shadow: 0 0 5px var(--bgcolor8);
+}
+
+.attendence_navbar_add_class_container i {
+    transition: 0.2s;
+    font-size: 1.5rem;
+}
+
+.attendence_navbar_add_class_container:hover i {
+    transform: scale(1.15);
+}
+
+.attendence_content_container {
+    flex-direction: column;
+    min-height: calc(100vh - 14rem);
+    /* height: calc(100vh - 14rem); */
+    width: 100%;
+    /* background-color: blue; */
+}

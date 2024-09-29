@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* 
+font-family: "Ubuntu", sans-serif;
+font-family: "Roboto", sans-serif;
+*/
+
+:root {
+  --bgcolor1: #fff;
+  --bgcolor2: #eaeaea;
+  --bgcolor3: #f2f2f2;
+  --bgcolor4: #B7E0FF;
+  --bgcolor5: #FFEEA9;
+  --bgcolor6: #C0EBA6;
+  --bgcolor7: #aed497;
+  --bgcolor8: #e7e7e7;
+  --bgcolor9: #d9d9d9;
+  --color1: rgb(28, 27, 34);
+  --color2: black;
+}
+
+.change_mode {
+  --bgcolor1: #1b1b21;
+  --bgcolor2: #27272f;
+  --bgcolor3: #1f2028;
+  --bgcolor4: #215780;
+  --bgcolor5: #a58f35;
+  --bgcolor6: #2b7257;
+  --bgcolor7: #296a51;
+  --bgcolor8: #18191f;
+  --bgcolor9: rgb(40, 42, 51);
+  --color1: #e3e3e3;
+  --color2: #fff;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+  color: var(--color1);
+}
+
+.dff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.df-jc {
+  display: flex;
+  align-items: center;
+}
+
+.df-ai {
+  display: flex;
+  align-items: center;
+}
+
+.df {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color2);
+}
